@@ -1,0 +1,33 @@
+{
+  "name": "learning-typescript",
+  "version": "0.0.1",
+  "description": "Learning playground for self study",
+  "preview": true,
+  "scripts": {
+    "start": "webpack --watch",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calummm/learning-typescript.git"
+  },
+  "author": "Calum Moir-Mattox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calummm/learning-typescript/issues"
+  },
+  "homepage": "https://github.com/calummm/learning-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "nodemon-webpack-plugin": "^4.4.4",
+    "ts-jest": "^26.4.4",
+    "ts-loader": "^8.0.14",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1"
+  }
+}
