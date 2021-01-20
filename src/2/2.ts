@@ -9,3 +9,7 @@ export let oddNumberArray: number[];
 
 //Make allBut5Array equal to [0, 1, 2, 3, 4, 6, 7, 8, 9] using a for loop
 export let allBut5Array: number[];
+
+//Make an object with a property of greeting
+//Make up a greeting
+export let aSimpleObject: Object;
